@@ -14,16 +14,24 @@ header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
-    height: 100px;
 }
 
-.seo{
+.seo {
     color: #d9dcd6;
-
 }
+
 h1 {
     display: inline-block;
     font-size: 48px;
+}
+
+.lead-gen {
+    padding-top: 0px;
+}
+
+h3 {
+    padding-top: 20px;
+    text-align: center;
 }
 
 nav {
@@ -33,14 +41,15 @@ nav {
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-
 }
+
 li {
     display: inline;
     list-style-type: none;
     margin-left: 25px;
     
 }
+
 a {
     color: #ffffff;
     text-decoration: none;
@@ -50,7 +59,8 @@ p {
     font-size: 16px;
 
 }
-.Hero-image {
+
+.hero-image {
         height: 800px;
         width: 100%;
         margin-bottom: 25px;
@@ -58,7 +68,6 @@ p {
         background-size: cover;
         background-position: center;
 }  
-
 
 .float-left {
     float: left;
@@ -85,51 +94,22 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd; 
-}
-
-.benefit-lead {
     margin-bottom: 32px;
-    color: #ffffff;
+    color: white;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+.benefits2 {
     margin-bottom: 10px;
-    text-align: center;
+    text-align: left;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/*rename all in index.html to .benefit-image*/
-.benefit-lead img ,
-.benefit-brand img ,
-.benefit-cost img {
+.benefits3 {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/*rename to TODO make up new class name and replace these classes names with that class.*/
-.search-engine-optimization,
-.online-reputation-management, 
-.social-media-marketing {
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -143,17 +123,13 @@ p {
     max-height: 200px;
 }
 
-/* TODO explore using just ".seo h2" for the following 3 head tags below... maybe .seo class think of something better. */
-.search-engine-optimization h2,
-.online-reputation-management h2,
-.social-media-marketing h2 {
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 footer {
-    padding: 20px;
-    
+    padding: 20px;    
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
